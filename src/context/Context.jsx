@@ -31,7 +31,7 @@ const ContextProvider = (props) => {
         let response;
         if (prompt !== undefined) {
             if (prompt.toLowerCase().includes("who build you") || prompt.toLowerCase().includes("who built you")) {
-                response = "I was built by Harikesh.";
+                response = "I was built by Krish.";
             } else {
                 response = await runChat(prompt);
             }
