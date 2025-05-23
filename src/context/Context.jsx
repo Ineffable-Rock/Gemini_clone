@@ -40,7 +40,7 @@ const ContextProvider = (props) => {
             setPrevPrompts((prev) => [...prev, input]);
             setRecentPrompt(input);
             if (input.toLowerCase().includes("who built you") || input.toLowerCase().includes("who trained you")) {
-                response = "I was built by Harikesh.";
+                response = "I was built by Krish.";
             } else {
                 response = await runChat(input);
             }
